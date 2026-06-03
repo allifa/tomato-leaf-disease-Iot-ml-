@@ -1,4 +1,4 @@
-# tomato-leaf-disease-Iot-ml-
+# tomato-leaf-disease-Iot-ml
 This project introduces an innovative approach combining IoT and Machine Learning to address this issue. We use an ESP32-CAM module to capture high-resolution images of leaves, which are uploaded to Google Drive. A pre-trained Machine Learning (ML) model processes these images to identify whether the leaf is healthy or affected by any of the five diseases it has been trained to recognize. The ML model, trained on a dataset of over 1000 labeled images, ensures high accuracy in predictions. 
 ## Implementation
 Image Capture: The ESP32-CAM is programmed using Arduino IDE to capture leaf images. Once powered on, it uses its built-in Wi-Fi module to connect to a network and upload images to Google Drive via the Google Drive API.
